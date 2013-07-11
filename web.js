@@ -4,7 +4,7 @@ var app = express.createServer(express.logger());
 
  app.get('/', function(request, response) {
  var fs = require('fs');
-fs.writeFileSync('index.html','Hello World from index.html', 'utf8' {
+fs.writeFileSync('index.html', 'utf8' {
 response.send('Hello World form index.html')
 });
 
